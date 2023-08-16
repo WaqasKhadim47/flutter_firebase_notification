@@ -38,10 +38,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     'to': value.toString(),
                     'priority': 'high',
                     'notification': {
-                      'title': 'Vishwas',
+                      'title': 'Waqas Khadim',
                       'body': 'Testing through text button'
                     },
-                    'data': {'type': 'msg', 'id': '646456'}
+                    'data': {'type': 'msg', 'id': '123456'}
                   };
                   await http.post(
                       Uri.parse('https://fcm.googleapis.com/fcm/send'),
